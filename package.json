@@ -1,6 +1,6 @@
 {
   "name": "@tolga-z/tolgas-seje-dims",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,4 +17,3 @@
   },
   "homepage": "https://github.com/TolgaAkaMoon/tolgas-seje-dims#readme"
 }
-
