@@ -4,3 +4,5 @@
 ```bash
 npm i @tolga-z/tolgas-seje-dims
 ```
+### How to use
+

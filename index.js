@@ -1,1 +1,3 @@
-module.exports = require("./src/dims");
+let rainbowLog = require("./src/dims");
+
+rainbowLog("Hej Mohsen")
