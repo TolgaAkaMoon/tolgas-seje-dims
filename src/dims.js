@@ -12,7 +12,7 @@ function rainbow(message) {
           ]
 
           function arrayInterator(symbol, index) {   
-            return `${colors[index % colors.length] + symbol + "\x1b[0m"}`
+            return `${colors[index % colors.length] + symbol.reverse("") + "\x1b[0m"}`
           }
 
           let symbols = message.split("")
