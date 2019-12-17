@@ -1,3 +1,3 @@
 let rainbowLog = require("./src/dims");
 
-rainbowLog("Hej Mohsen")
+rainbowLog(" HELLO WORLD ") // Write anything here for rainbowed text.

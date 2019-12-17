@@ -1,6 +1,6 @@
 function rainbow(message) {
 
-          colors = [
+          colors = [ // bunch of colors that work with console log.
             "\x1b[31m",
             "\x1b[32m",
             "\x1b[33m",
@@ -12,11 +12,11 @@ function rainbow(message) {
           ]
 
           function arrayInterator(symbol, index) {   
-            return `${colors[index % colors.length] + symbol.reverse("") + "\x1b[0m"}`
+            return `${colors[index % colors.length] + symbol + "\x1b[0m"}`
           }
 
-          let symbols = message.split("")
-          console.log(symbols.map(arrayInterator).join(""))
+          let symbols = message.split("")// Add .Reverse() if you want it to be reversed rainbow text.
+          console.log(symbols.map(arrayInterator).join("")) // Console logs our symbols after function is applied and we join the letters.
         }
 
 module.exports = rainbow;
